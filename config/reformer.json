@@ -1,0 +1,25 @@
+{
+  "data": {
+    "tokenizer": "enwik8-char.model",
+    "vocab_size": "must be returned by tokenizer"
+  },
+  "model": {
+    "axial_pos_embds": 0,
+    "bucket_len": 32,
+    "d_ff": 256,
+    "d_model": 64,
+    "dropout_rate": 0.0,
+    "max_position_embeddings": 128,
+    "n_chunks": 8,
+    "n_heads": 8,
+    "n_layers": 3,
+    "n_rounds": 2
+  },
+  "training": {
+    "batch_size": 8,
+    "epochs": 10,
+    "lr": 0.0001,
+    "seed": 1,
+    "steps_per_epoch": 20
+  }
+}
